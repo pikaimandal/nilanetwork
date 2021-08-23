@@ -43,6 +43,7 @@
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 	<!-- Freelancer Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="demos/freelancer/css/fonts.css" type="text/css" />
@@ -495,19 +496,19 @@
 						</div>
 
 						<div class="col-md-5">
-							<h3 class="h1 mb-5">Estimate your Project?</h3>
+							<h3 class="h1 mb-5">Have any questinons about our project?</h3>
 							<div class="form-widget" data-loader="button" data-alert-type="inline">
 
 								<div class="form-result"></div>
 
-								<form class="row mb-0" id="landing-enquiry" action="include/form.php" method="post" enctype="multipart/form-data">
+								<form class="row mb-0" class="pageclip-form" id="landing-enquiry" action="https://send.pageclip.co/jfKI0frSzNUyzUXPwVScZHEx3dY76EoN" method="post" enctype="multipart/form-data">
 									<div class="form-process"></div>
 									<div class="col-12 form-group mb-4">
 										<label>What is Your Name:</label>
-										<input type="text" name="landing-enquiry-name" id="landing-enquiry-name" class="form-control border-form-control required" value="">
+										<input type="text" name="name" id="landing-enquiry-name" class="form-control border-form-control required" value="">
 									</div>
 									<div class="col-12 form-group mb-4">
-										<label>Your Email Address Please:</label>
+										<label>Your Email Address:</label>
 										<input type="email" name="landing-enquiry-email" id="landing-enquiry-email" class="form-control border-form-control required" value="">
 									</div>
 									<div class="col-12 form-group mb-4">
@@ -518,7 +519,9 @@
 										<input type="text" id="landing-enquiry-botcheck" name="landing-enquiry-botcheck" value="" />
 									</div>
 									<div class="col-12">
-										<button type="submit" name="landing-enquiry-submit" class="button h-translatey-3 bg-dark rounded-pill"><i class="icon-line-arrow-right m-0"></i></button>
+										  <button type="submit" class="pageclip-form__submit">
+    <span>Send Message</span>
+  </button>
 									</div>
 
 									<input type="hidden" name="prefix" value="landing-enquiry-">
@@ -568,5 +571,6 @@
 	</script>
 <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
