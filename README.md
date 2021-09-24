@@ -1,2 +1,2 @@
-#This repository is for the Nila Network website!
-Meet NilaNetwork, the all-in-one Crypto solution & the largest and only Crypto Network securing the digital economy from every type of scam or fraud! The main network behind NilaSafe, NilaSwap, NilaPad, NilaKart, NilaWallet, NilaPay and NilaFinance!
+#This repository of the https://nila.network website!
+Nila Network is a blockchain-based company that aimsto provide multiple crypto solutions with both DeFi &CeFi projects. NILA is the native token of the NilaNetwork.
